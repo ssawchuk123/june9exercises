@@ -3,13 +3,10 @@ puts 55 * 0.15.to_i
 
 #Adding a string and an integer 
 
-puts "What is the name of your city?"
-city = gets.chomp
+number = 5
+string = "20"
 
-puts "Hi! your city is #{city}, what is the latitude of your city?"
-latitude = gets.chomp.to_s
-
-puts "#{city} is located at #{latitude}"
+puts "#{number} + #{string.to_i}"
 
 # outputting the result of 45628 multiplied by 7839 in a sentence by using string interpolation.
 
