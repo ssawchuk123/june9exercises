@@ -6,7 +6,7 @@ puts 55 * 0.15.to_i
 number = 5
 string = "20"
 
-puts "#{number} + #{string.to_i}"
+puts number + string.to_i
 
 # outputting the result of 45628 multiplied by 7839 in a sentence by using string interpolation.
 
